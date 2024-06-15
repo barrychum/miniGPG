@@ -21,7 +21,8 @@ openssl rsa -pubout -in encryption.key -out encryption.pub -passin pass:your_pas
 or
 openssl rsa -pubout -in encryption.key -out encryption.pub
 ```
-
+Put the private key and the public key in ~/.ssh folder.  
+**Make sure the private key is only accessible by you, and it is backed up properly.**
 
 ### Encryption Process:
 1. Generate a symmetric key to encrypt a file.
@@ -94,12 +95,12 @@ chmod +x encrypt.sh decrypt.sh
 
 3. Run the encryption script:
 ```sh
-./encrypt.sh path/to/input_file path/to/output_file
+./encrypt.sh path/to/input_file 
 ```
 
 4. Run the decryption script:
 ```sh
-./decrypt.sh path/to/encrypted_file path/to/encrypted_key path/to/decrypted_output_file
+./decrypt.sh path/to/encrypted_file 
 ```
 
 ## License
