@@ -1,7 +1,8 @@
 
 # MiniGPG: Simple GPG-like Encryption with OpenSSL
+GPG (GNU Privacy Guard) encryption is a cryptographic tool used for secure communication and data encryption. It implements the OpenPGP standard for encrypting and signing data and communications. GPG uses a combination of symmetric-key cryptography for speed and public-key cryptography for secure key exchange. Users create a pair of keys: a public key, which is shared, and a private key, which is kept secret. Data encrypted with the public key can only be decrypted with the corresponding private key, ensuring confidentiality and authenticity.
 
-This project is inspired by the GPG encryption mechanism and uses OpenSSL for cryptographic operations.  This project contains two bash scripts to simulate GPG's encryption and decryption mechanism using OpenSSL. The scripts demonstrate how to:
+MiniGPG is inspired by GPG encryption and utilizes OpenSSL for cryptographic operations. This project includes two bash scripts to simulate GPG's encryption and decryption processes.
 
 ### Preparation Process:
 1. Create a public-private RSA key pair.
