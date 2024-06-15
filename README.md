@@ -1,9 +1,7 @@
-Sure, here's the updated `README.md`:
 
-```markdown
 # MiniGPG: Simple GPG-like Encryption with OpenSSL
 
-This project contains two bash scripts to simulate GPG's encryption and decryption mechanism using OpenSSL. The scripts demonstrate how to:
+This project is inspired by the GPG encryption mechanism and uses OpenSSL for cryptographic operations.  This project contains two bash scripts to simulate GPG's encryption and decryption mechanism using OpenSSL. The scripts demonstrate how to:
 
 ### Preparation Process:
 1. Create a public-private RSA key pair.
@@ -91,9 +89,6 @@ chmod +x encrypt.sh decrypt.sh
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Acknowledgements
-
-This project is inspired by the GPG encryption mechanism and uses OpenSSL for cryptographic operations.
 
 
 <!-- 
